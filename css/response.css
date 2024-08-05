@@ -121,6 +121,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  /* Header css start */
     .vear-container {
         max-width: 540px;
       }
@@ -177,9 +178,58 @@
         padding: 10px 20px;
       }
     
+      /* Header css end */
+
+
+      /* banner css start */
+    .textArea h1 {
+      font-size: 36px !important;
+      line-height: 55px !important;
+    }
+    .textArea h3 {
+      font-size: 10px !important;
+    }
+
+    .textArea p {
+      font-size: 18px !important;
+      line-height: 27.4px !important;
+    }
+   
+    .email p {
+      font-size: 13px !important;
+    }
+    .infoBanner {
+      padding: 18px 28px !important; 
+  }
+
+      .infoBanner img {
+          width: 40px !important;
+          height: 40px !important;
+          margin-top: 8px;
+          margin-left: 4px;
+        }
+        .imgArea img {
+          width: 330px !important;
+          padding-left: 6rem !important;
+        }
+
+        .countup {
+          left: 30px !important;
+          top: -12% !important;
+        }
+        .countdow {
+          right: 29px !important;
+          bottom: 9% !important;
+        }
+
+        .mainBanner {
+          grid-template-columns: 100% !important;
+        }
+  /* banner css end */
 }
 
 @media (min-width: 520px) and (max-width: 575.98px) {
+  /* Header css start */
     .vear-container {
         max-width: 420px;
         margin: auto !important;
@@ -237,6 +287,55 @@
         background: #fff;
         padding: 10px 20px;
       }
+      /* Header css end */
+
+
+
+      /* banner css start */
+    .textArea h1 {
+      font-size: 35px !important;
+      line-height: 55px !important;
+    }
+    .textArea h3 {
+      font-size: 9px !important;
+    }
+
+    .textArea p {
+      font-size: 18px !important;
+      line-height: 27.4px !important;
+    }
+   
+    .email p {
+      font-size: 13px !important;
+    }
+    .infoBanner {
+      padding: 18px 28px !important; 
+  }
+
+      .infoBanner img {
+          width: 40px !important;
+          height: 40px !important;
+          margin-top: 8px;
+          margin-left: 4px;
+        }
+        .imgArea img {
+          width: 330px !important;
+          padding-left: 6rem !important;
+        }
+
+        .countup {
+          left: 30px !important;
+          top: -12% !important;
+        }
+        .countdow {
+          right: 29px !important;
+          bottom: 9% !important;
+        }
+
+        .mainBanner {
+          grid-template-columns: 100% !important;
+        }
+  /* banner css end */
 }
 
 @media (min-width: 370px) and (max-width: 520.98px) {
